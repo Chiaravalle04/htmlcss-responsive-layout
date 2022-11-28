@@ -339,6 +339,60 @@ header nav ul li .button {
     justify-content: space-between;
 }
 
+.cont-fifth-sec h2 {
+    color: var(--secondary-color);
+    font-size: 3rem;
+}
+
+.fifth-sec-text {
+    width: 70%;
+}
+
+#f-sec-p {
+    margin: var(--space) 0;
+}
+
+.fifth-sec-img {
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fifth-sec-img .img-card {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url('../img/about.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.q-mark-img {
+    color: var(--secondary-color);
+    font-size: 5rem;
+    align-self: flex-end;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+
+.fifth-sec-img > p {
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: var(--space) 1rem;
+}
+
+.fifth-sec-img > .button {
+    display: inline-block;
+    color: var(--tertiary-color);
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    padding: 10px 12px;
+    border-radius: 1.5rem;
+}
+
 /* Sixth Section */
 #get-started {
     background-color: var(--secondary-color);
