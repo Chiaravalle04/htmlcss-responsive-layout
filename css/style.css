@@ -65,20 +65,21 @@ header nav ul li a {
     background-color: var(--tertiary-color);
 }
 
-.cards {
+#utilities .cards {
     flex-wrap: wrap;
+    gap: var(--space);
     padding: var(--distance) 0 var(--double-distance);
 }
 
-.card {
-    width: calc(100% / 3);
+#utilities .card {
+    width: calc((100% / 3) - 1.5rem);
     background-color: var(--main-color-light);
 
     border: 1px solid black;
 }
 
-.card:first-child {
-    width: calc((100% / 3) * 2);
+#utilities .card:first-child {
+    width: calc(((100% / 3) * 2) - 1.5rem);
 }
 
 /* Second Section */
@@ -115,5 +116,30 @@ header nav ul li a {
     background-color: var(--secondary-color);
     margin: var(--space) 0;
     padding: var(--space);
+
     justify-content: space-between;
+}
+
+/* Fourth Section */
+#benefits {
+    background-color: var(--secondary-color);
+    padding-bottom: var(--distance);
+}
+
+#benefits .text {
+    text-align: center;
+    padding: var(--distance) 0;
+}
+
+.cont-benefits {
+    flex-wrap: wrap;
+    gap: var(--space);
+}
+
+.cont-benefits .card {
+    width: calc((100% / 3) - 1.5rem);
+    background-color: var(--tertiary-color);
+    padding: var(--space);
+
+    border: 1px solid black;
 }
