@@ -18,6 +18,7 @@
     --secondary-color: #9792e4;
     --tertiary-color: #ffffff;
     --last-color: #333333;
+    --card-text-color: #5d7284;
 
     /* distance */
     --distance: 3rem;
@@ -59,7 +60,7 @@ header nav ul li a {
     padding: 1.5rem;
 }
 
-.button {
+header nav ul li .button {
     color: var(--last-color);
     font-weight: bold;
     background-color: var(--tertiary-color);
@@ -83,12 +84,68 @@ header nav ul li a {
 #utilities .card {
     width: calc((100% / 3) - 1.5rem);
     background-color: var(--main-color-light);
-
-    border: 1px solid black;
+    border-radius: 1.5rem;
+    flex-grow: 0;
 }
 
 #utilities .card:first-child {
     width: calc(((100% / 3) * 2) - 1.5rem);
+}
+
+#utilities .cards .card .card-text {
+    width: 50%;
+    padding: var(--space);
+}
+
+#utilities .cards .card .card-text > h2 {
+    color: var(--main-color);
+    margin-bottom: var(--space);
+}
+
+#utilities .cards .card .card-text > p {
+    color: var(--card-text-color);
+    font-weight: bold;
+    line-height: 1.7rem;
+    margin-bottom: var(--space);
+}
+
+#utilities .cards .card .card-text .button {
+    display: inline-block;
+    color: var(--tertiary-color);
+    font-weight: bold;
+    background-color: var(--main-color);
+    padding: 0.7rem 3rem;
+    border-radius: 1.5rem; 
+}
+
+#utilities .cards .card-img {
+    justify-content: center;
+    width: 50%;
+}
+
+#utilities .cards .card-img img {
+    width: 70%;
+}
+
+#utilities .card:not(:first-child) {
+    padding: var(--space);
+    text-align: center;
+}
+
+.icon {
+    font-size: 5rem;
+    color: var(--main-color);
+}
+
+.card h2:not(:first-child) {
+    margin: var(--space) 0;
+    color: var(--main-color);
+}
+
+.card p {
+    color: var(--card-text-color);
+    font-weight: bold;
+    line-height: 1.7rem;
 }
 
 /* Second Section */
