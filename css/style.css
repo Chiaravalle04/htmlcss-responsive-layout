@@ -43,6 +43,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    line-height: 1.7rem;
+}
+
 /* Header */
 header {
     height: 5rem;
@@ -85,7 +89,6 @@ header nav ul li .button {
     width: calc((100% / 3) - 1.5rem);
     background-color: var(--main-color-light);
     border-radius: 1.5rem;
-    flex-grow: 0;
 }
 
 #utilities .card:first-child {
@@ -105,7 +108,6 @@ header nav ul li .button {
 #utilities .cards .card .card-text > p {
     color: var(--card-text-color);
     font-weight: bold;
-    line-height: 1.7rem;
     margin-bottom: var(--space);
 }
 
@@ -155,13 +157,57 @@ header nav ul li .button {
 
 .cont-planning {
     padding: var(--double-distance) var(--double-distance) var(--distance);
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-end;
 }
 
 .planning-card {
-    
-    border: 1px solid black;
+    width: 40%;
+}
+
+.planning-card img {
+    width: 100%;
+}
+
+.planning-card > h3 {
+    margin: var(--double-distance) 0 var(--space) 0;
+    color: var(--tertiary-color);
+    font-size: 2rem;
+}
+
+.planning-card > p {
+    color: var(--tertiary-color);
+}
+
+.planning-card2 {
+    width: 40%;
+    border-radius: 1.5rem;
+    padding: var(--space);
+    text-align: center;
+    background-color: var(--tertiary-color);
+}
+
+.planning-card2 img {
+    width: 70%;
+}
+
+.planning-card2 > h3 {
+    color: var(--last-color);
+    margin: var(--space) 0;
+}
+
+.planning-card2 > .circle {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: var(--space) auto 0;
+    background-color: var(--secondary-color);
+}
+
+.planning-card2 > .circle a {
+    color: var(--last-color);
+    padding: 0.5rem;
 }
 
 /* Third Section */
