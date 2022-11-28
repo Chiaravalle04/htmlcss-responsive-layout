@@ -143,3 +143,14 @@ header nav ul li a {
 
     border: 1px solid black;
 }
+
+/* Fifth Section */
+#about-us {
+    background-color: var(--tertiary-color);
+    padding: var(--distance) 0 var(--double-distance) 0;
+}
+
+.cont-fifth-sec {
+    justify-content: space-between;
+}
+
