@@ -22,6 +22,7 @@
     /* distance */
     --distance: 3rem;
     --double-distance: 6rem;
+    --space: 1.5rem;
 }
 
 .container {
@@ -94,4 +95,25 @@ header nav ul li a {
 .planning-card {
     
     border: 1px solid black;
+}
+
+/* Third Section */
+#testimonials {
+    background-color: var(--tertiary-color);
+}
+
+.cont-testimonials {
+    padding: var(--distance) 0 var(--double-distance);
+    text-align: center;
+}
+
+#testimonials .cont-testimonials > .text {
+    padding: 0 0 var(--distance) 0;
+}
+
+.card-testim {
+    background-color: var(--secondary-color);
+    margin: var(--space) 0;
+    padding: var(--space);
+    justify-content: space-between;
 }
