@@ -76,6 +76,10 @@ header nav ul li .button {
     border-radius: 1.5rem;
 }
 
+.d-none {
+    display: none;
+}
+
 /* Main */
 
 /* First Section */
@@ -463,4 +467,64 @@ footer {
 .cont-footer > p a {
     color: var(--secondary-color);
     text-decoration: underline;    
+}
+
+
+
+/* Media Query */
+@media screen and (max-width: 780px) {
+
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    ul li a {
+        display: none;
+    }
+
+    .d-none {
+        display: block;
+        color: var(--tertiary-color);
+        font-size: 1.5rem;
+    }
+
+    #utilities .cards {
+        padding: var(--distance) var(--space);
+    }
+
+    .cont-planning {
+        padding: var(--double-distance) var(--double-distance) var(--distance);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .planning-card {
+        width: 100%;
+    }
+
+    .planning-card2 {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .card-testim .text {
+        padding: 0 10px;
+    }
+
+    .cont-benefits {
+        justify-content: center;
+    }
+
+    .cont-benefits .card {
+        width: 40%;
+    }
+
+    .fifth-sec-img {
+        width: 30%;
+    }
+
+    .cont-footer {
+        width: 50%;
+    }
 }
