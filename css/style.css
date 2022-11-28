@@ -12,13 +12,16 @@
 
 /* Regole Generali */
 :root {
+    /* color */
     --main-color: #0084fd;
     --main-color-light: #b5ddff;
-
     --secondary-color: #9792e4;
     --tertiary-color: #ffffff;
-
     --last-color: #333333;
+
+    /* distance */
+    --distance: 3rem;
+    --double-distance: 6rem;
 }
 
 .container {
@@ -52,4 +55,27 @@ header {
 
 header nav ul li a {
     padding: 1.5rem;
+}
+
+/* Main */
+
+/* First Section */
+#utilities {
+    background-color: var(--tertiary-color);
+}
+
+.cards {
+    flex-wrap: wrap;
+    padding: var(--distance) 0 var(--double-distance);
+}
+
+.card {
+    width: calc(100% / 3);
+    background-color: var(--main-color-light);
+
+    border: 1px solid black;
+}
+
+.card:first-child {
+    width: calc((100% / 3) * 2);
 }
