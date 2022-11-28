@@ -55,7 +55,16 @@ header {
 }
 
 header nav ul li a {
+    color: var(--tertiary-color);
     padding: 1.5rem;
+}
+
+.button {
+    color: var(--last-color);
+    font-weight: bold;
+    background-color: var(--tertiary-color);
+    padding: 10px;
+    border-radius: 1.5rem;
 }
 
 /* Main */
