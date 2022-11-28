@@ -163,3 +163,11 @@ header nav ul li a {
 .cont-get-started {
     text-align: center;
 }
+
+/* Footer */
+footer {
+    background-color: var(--last-color);
+    padding: var(--distance) 0;
+
+    text-align: center;
+}
