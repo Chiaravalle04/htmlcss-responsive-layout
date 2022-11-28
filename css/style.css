@@ -448,6 +448,19 @@ header nav ul li .button {
 footer {
     background-color: var(--last-color);
     padding: var(--distance) 0;
+}
 
-    text-align: center;
+.cont-footer {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.cont-footer > p {
+    color: var(--tertiary-color);
+    margin: var(--space) 0;    
+}
+
+.cont-footer > p a {
+    color: var(--secondary-color);
+    text-decoration: underline;    
 }
