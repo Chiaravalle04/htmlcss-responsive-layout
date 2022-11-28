@@ -79,3 +79,19 @@ header nav ul li a {
 .card:first-child {
     width: calc((100% / 3) * 2);
 }
+
+/* Second Section */
+#planning {
+    background-color: var(--secondary-color);
+}
+
+.cont-planning {
+    padding: 0 var(--double-distance);
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.planning-card {
+    
+    border: 1px solid black;
+}
