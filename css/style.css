@@ -154,3 +154,12 @@ header nav ul li a {
     justify-content: space-between;
 }
 
+/* Sixth Section */
+#get-started {
+    background-color: var(--secondary-color);
+    padding: var(--distance) 0;
+}
+
+.cont-get-started {
+    text-align: center;
+}
