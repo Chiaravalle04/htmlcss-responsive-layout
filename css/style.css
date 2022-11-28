@@ -86,7 +86,7 @@ header nav ul li a {
 }
 
 .cont-planning {
-    padding: 0 var(--double-distance);
+    padding: var(--double-distance) var(--double-distance) var(--distance);
     justify-content: center;
     align-items: flex-end;
 }
