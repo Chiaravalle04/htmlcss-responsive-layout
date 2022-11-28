@@ -400,7 +400,48 @@ header nav ul li .button {
 }
 
 .cont-get-started {
-    text-align: center;
+    width: 50%;
+}
+
+.cont-get-started > span {
+    color: var(--tertiary-color);
+}
+
+.cont-get-started > h2 {
+    color: var(--tertiary-color);
+    font-size: 2rem;
+    margin: var(--space);
+}
+
+.cont-get-started > h3 {
+    color: #fdc15f;
+    font-size: 4rem;
+}
+
+.cont-get-started > p:not(:last-child) {
+    color: var(--tertiary-color);
+    padding: 0 9.5rem;
+    margin: var(--space) 0;
+}
+
+.cont-get-started > #copy {
+    color: var(--tertiary-color);
+    font-size: 0.8rem;
+    margin-top: var(--space);
+}
+
+.cont-get-started > #copy a {
+    color: var(--tertiary-color);
+    text-decoration: underline;
+}
+
+.cont-get-started > .button {
+    display: inline-block;
+    color: var(--secondary-color);
+    font-weight: bold;
+    background-color: var(--tertiary-color);
+    padding: 20px 60px;
+    border-radius: 3rem;
 }
 
 /* Footer */
