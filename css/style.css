@@ -4,3 +4,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Font */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Regole Generali */
+:root {
+    --main-color: #0084fd;
+    --main-color-light: #b5ddff;
+
+    --secondary-color: #9792e4;
+    --tertiary-color: #ffffff;
+
+    --last-color: #333333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    height: 5rem;
+    background-color: var(--main-color);
+}
+
+.cont-header {
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li a {
+    padding: 1.5rem;
+}
