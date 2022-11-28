@@ -47,6 +47,10 @@ p {
     line-height: 1.7rem;
 }
 
+.txt-center {
+    text-align: center;
+}
+
 /* Header */
 header {
     height: 5rem;
@@ -131,7 +135,6 @@ header nav ul li .button {
 
 #utilities .card:not(:first-child) {
     padding: var(--space);
-    text-align: center;
 }
 
 .icon {
@@ -183,7 +186,6 @@ header nav ul li .button {
     width: 40%;
     border-radius: 1.5rem;
     padding: var(--space);
-    text-align: center;
     background-color: var(--tertiary-color);
 }
 
@@ -217,7 +219,12 @@ header nav ul li .button {
 
 .cont-testimonials {
     padding: var(--distance) 0 var(--double-distance);
-    text-align: center;
+}
+
+.cont-testimonials h2 {
+    color: var(--secondary-color);
+    font-size: 3rem;
+    margin: var(--space) 0;
 }
 
 #testimonials .cont-testimonials > .text {
@@ -228,9 +235,50 @@ header nav ul li .button {
     background-color: var(--secondary-color);
     margin: var(--space) 0;
     padding: var(--space);
+    border-radius: 1.5rem;
 
     justify-content: space-between;
 }
+
+.card-testim .img-card {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.bg-img1 {
+    background-image: url('../img/testimonial1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-img2 {
+    background-image: url('../img/testimonial2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-img3 {
+    background-image: url('../img/testimonial3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.cont-testimonials .card-testim .text {
+    width: 75%;
+    color: var(--tertiary-color);
+    align-self: center;
+}
+
+.q-mark {
+    font-size: 1.5rem;
+}
+
+.text > .name {
+    font-weight: bold;
+    margin: var(--space) 0 0;
+}
+
 
 /* Fourth Section */
 #benefits {
@@ -238,8 +286,9 @@ header nav ul li .button {
     padding-bottom: var(--distance);
 }
 
-#benefits .text {
-    text-align: center;
+#benefits h2 {
+    color: var(--tertiary-color);
+    font-size: 3rem;
     padding: var(--distance) 0;
 }
 
@@ -253,7 +302,31 @@ header nav ul li .button {
     background-color: var(--tertiary-color);
     padding: var(--space);
 
-    border: 1px solid black;
+    border-radius: 1.5rem;
+}
+
+#benefits .cont-benefits .card span {
+    color: var(--secondary-color);
+    font-size: 3rem;
+}
+
+#benefits .cont-benefits .card h3 {
+    color: var(--secondary-color);
+    margin: var(--space) 0;
+}
+
+#benefits .cont-benefits .card p {
+    font-weight: 300;
+    margin-bottom: var(--space);
+}
+
+#benefits .cont-benefits .card .button {
+    display: inline-block;
+    color: var(--tertiary-color);
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    padding: 10px 50px;
+    border-radius: 1.5rem;
 }
 
 /* Fifth Section */
