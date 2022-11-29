@@ -490,9 +490,21 @@ footer {
         color: var(--tertiary-color);
         font-size: 1.5rem;
     }
-
+    
     #utilities .cards {
         padding: var(--distance) var(--space);
+    }
+
+    #utilities .card:first-child {
+        flex-wrap: wrap;
+    }
+
+    #utilities .cards .card .card-text {
+        width: 100%;
+    }
+
+    #utilities .cards .card-img {
+        width: 100%;
     }
 
     .cont-planning {
