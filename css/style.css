@@ -474,6 +474,8 @@ footer {
 
 
 /* Media Query */
+
+/* Tablet */
 @media screen and (max-width: 780px) {
 
     .container {
@@ -539,5 +541,64 @@ footer {
 
     .cont-footer {
         width: 50%;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+    #utilities .card:first-child {
+        width: 100%;
+    }
+
+    #utilities .cards .card-img {
+        justify-content: center;
+        padding: 0;
+    }
+
+    #utilities .card:not(:first-child) {
+        width: 100%;
+    }
+
+    .cont-planning {
+        padding: 20px;
+    }
+
+    .card-testim {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card-testim .img-card {
+        margin-bottom: 20px;
+    }
+
+    .cont-testimonials .card-testim .text {
+        text-align: center;
+    }
+
+    .cont-benefits .card {
+        width: 100%;
+    }
+
+    .cont-fifth-sec {
+        flex-wrap: wrap;
+    }
+
+    .fifth-sec-text {
+        width: 100%;
+    }
+
+    .fifth-sec-img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .fifth-sec-img > p {
+        text-align: center;
+    }
+
+    .cont-get-started > p:not(:last-child) {
+        padding: 0;
     }
 }
