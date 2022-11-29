@@ -476,7 +476,7 @@ footer {
 /* Media Query */
 
 /* Tablet */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 900px) {
 
     .container {
         width: 100%;
@@ -545,7 +545,7 @@ footer {
 }
 
 /* Mobile */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 
     #utilities .card:first-child {
         width: 100%;
