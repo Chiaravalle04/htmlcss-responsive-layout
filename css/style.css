@@ -89,18 +89,19 @@ header nav ul li .button {
 
 #utilities .cards {
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: var(--space);
     padding: var(--distance) 0 var(--double-distance);
 }
 
 #utilities .card {
-    width: calc((100% / 3) - 1.5rem);
+    width: calc((100% / 3) - var(--space)) ;
     background-color: var(--main-color-light);
     border-radius: 1.5rem;
 }
 
 #utilities .card:first-child {
-    width: calc(((100% / 3) * 2) - 1.5rem);
+    width: calc(((100% / 3) * 2) - 0.75rem);
 }
 
 #utilities .cards .card .card-text {
@@ -129,8 +130,9 @@ header nav ul li .button {
 }
 
 #utilities .cards .card-img {
-    justify-content: center;
+    align-items: flex-end;
     width: 50%;
+    padding-left: 40px;
 }
 
 #utilities .cards .card-img img {
@@ -298,6 +300,7 @@ header nav ul li .button {
 
 .cont-benefits {
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: var(--space);
 }
 
@@ -305,7 +308,6 @@ header nav ul li .button {
     width: calc((100% / 3) - 1.5rem);
     background-color: var(--tertiary-color);
     padding: var(--space);
-
     border-radius: 1.5rem;
 }
 
@@ -495,8 +497,7 @@ footer {
 
     .cont-planning {
         padding: var(--double-distance) var(--double-distance) var(--distance);
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
     }
 
     .planning-card {
